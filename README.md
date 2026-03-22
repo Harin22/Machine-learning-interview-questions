@@ -65,3 +65,8 @@ Basic Concept:
 Agent → Action → Reward → Learning
 
 ---
+
+### 4. What's the difference between a parameter and a hyperparameter?
+
+Parameters are learned from data during training (e.g, weights and biases in a neural network, coefficients in linear regression).
+Hyperparameters are set before training and control the learning process (e.g. learning rate, number of layers, regularization strength, number of trees). They're tuned via grid search, random search, or Bayesian optimization.
