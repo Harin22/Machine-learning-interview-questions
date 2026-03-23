@@ -71,6 +71,8 @@ Agent → Action → Reward → Learning
 Parameters are learned from data during training (e.g, weights and biases in a neural network, coefficients in linear regression).
 Hyperparameters are set before training and control the learning process (e.g. learning rate, number of layers, regularization strength, number of trees). They're tuned via grid search, random search, or Bayesian optimization.
 
+---
+
 ### 5. Whats Cross-Validation?
 When data is limited, a single train/val split can be unreliable. K-Fold Cross-Validation splits the data into K equal parts, trains on K-1 folds and validates on the remaining one — repeated K times, each time with a different fold as the validation set. The average score across all folds gives a much more robust estimate of model performance. Stratified K-Fold ensures class proportions are preserved in each fold, which is critical for imbalanced datasets.
 
