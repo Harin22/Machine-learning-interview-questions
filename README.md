@@ -76,3 +76,17 @@ Hyperparameters are set before training and control the learning process (e.g. l
 ### 5. Whats Cross-Validation?
 When data is limited, a single train/val split can be unreliable. K-Fold Cross-Validation splits the data into K equal parts, trains on K-1 folds and validates on the remaining one — repeated K times, each time with a different fold as the validation set. The average score across all folds gives a much more robust estimate of model performance. Stratified K-Fold ensures class proportions are preserved in each fold, which is critical for imbalanced datasets.
 
+---
+
+### 6. What is overfitting and how do you prevent it?
+Overfitting occurs when a model learns the training data too well, including noise and performs poorly on unseen data. 
+
+| Method                 | How it works                               |
+| ---------------------- | ------------------------------------------ |
+| More data              | Reduces chance of memorizing noise         |
+| Cross-validation       | Ensures model generalizes across folds     |
+| Regularization (L1/L2) | Adds penalty on large weights              |
+| Dropout (neural nets)  | Randomly disables neurons during training  |
+| Pruning (trees)        | Removes unnecessary branches               |
+| Early stopping         | Stops training when validation error rises |
+| Simpler model          | Reduces capacity to memorize noise         |
