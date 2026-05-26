@@ -13,7 +13,7 @@ Example:
 In spam email detection, we train a model using thousands of emails labeled **spam** or **not spam**.  
 The model learns patterns from the data and predicts whether a new email is spam.
 
----
+--- 
 
 ## 2. Types of Machine Learning
 
