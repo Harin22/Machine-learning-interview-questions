@@ -95,5 +95,5 @@ Overfitting occurs when a model learns the training data too well, including noi
 
 ### 7. How do you handle imbalanced datasets?
 Handling imbalanced datasets is critical because models tend to bias toward the majority class, treating the minority class as noise.
-
+When handling imbalanced datasets, I avoid relying on accuracy alone and use metrics like Precision, Recall and F1-score. To improve performance, I can use techniques such as oversampling the minority class (e.g., SMOTE) undersampling the majority class or applying class weights so the model pays more attention to the minority class.
 
