@@ -90,3 +90,9 @@ Overfitting occurs when a model learns the training data too well, including noi
 | Pruning (trees)        | Removes unnecessary branches               |
 | Early stopping         | Stops training when validation error rises |
 | Simpler model          | Reduces capacity to memorize noise         |
+
+
+### 7. How do you handle imbalanced datasets?
+Handling imbalanced datasets is critical because models tend to bias toward the majority class, treating the minority class as noise.
+
+
