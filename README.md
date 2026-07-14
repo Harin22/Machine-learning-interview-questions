@@ -79,7 +79,7 @@ When data is limited, a single train/val split can be unreliable. K-Fold Cross-V
 ---
 
 ### 6. What is overfitting and how do you prevent it?
-Overfitting occurs when a model learns the training data too well, including noise and performs poorly on unseen data. 
+Overfitting occurs when a model learns the training data too well, including noise and performs poorly on unseen data.
 
 | Method                 | How it works                               |
 | ---------------------- | ------------------------------------------ |
