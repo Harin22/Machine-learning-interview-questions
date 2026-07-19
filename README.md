@@ -91,6 +91,10 @@ Overfitting occurs when a model learns the training data too well, including noi
 | Early stopping         | Stops training when validation error rises |
 | Simpler model          | Reduces capacity to memorize noise         |
 
+
+##7. What is data leakage and how can it be prevented? 
+Data leakage occurs when information from outside the training dataset leaks into the model training process, resulting in overly optimistic performance metrics. It can be prevented by strictly splitting data into training, validation, and test sets before any data transformations, and using pipelines.
+
 ---
 
 ### 7. How do you handle imbalanced datasets?
