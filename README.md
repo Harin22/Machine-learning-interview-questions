@@ -107,9 +107,9 @@ When handling imbalanced datasets, I avoid relying on accuracy alone and use met
 ### 8. Most basic pipeline
 Raw data → preprocessing → feature engineering → model → evaluation → tuning.
 
+---
 
-
-### 8. L1 vs L2 Regularization?
+### 9. L1 vs L2 Regularization?
 L1 (Lasso) → can shrink coefficients to zero (does feature selection)
 L2 (Ridge) → shrinks coefficients but keeps all features
 
