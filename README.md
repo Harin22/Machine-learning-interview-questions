@@ -6,7 +6,7 @@ This repository is built as a personal learning log while preparing for ML/AI ro
 ---
 
 ## 1. What is Machine Learning?
-
+ 
 Machine Learning is a sub field of Artificial Intelligence where computers learn patterns from data instead of being explicitly programmed. Instead of writing rules manually, we train a model using historical data. The model learns relationships in the data and uses those patterns to make predictions on new, unseen data.
 
 Example:  
@@ -101,6 +101,13 @@ Data leakage occurs when information from outside the training dataset leaks int
 ### 7. How do you handle imbalanced datasets?
 Handling imbalanced datasets is critical because models tend to bias toward the majority class, treating the minority class as noise.
 When handling imbalanced datasets, I avoid relying on accuracy alone and use metrics like Precision, Recall and F1-score. To improve performance, I can use techniques such as oversampling the minority class (e.g., SMOTE) undersampling the majority class or applying class weights so the model pays more attention to the minority class.
+
+---
+
+### 8. Most basic pipeline
+Raw data → preprocessing → feature engineering → model → evaluation → tuning.
+
+
 
 ### 8. L1 vs L2 Regularization?
 L1 (Lasso) → can shrink coefficients to zero (does feature selection)
