@@ -105,7 +105,7 @@ When handling imbalanced datasets, I avoid relying on accuracy alone and use met
 ---
 
 ### 8. Most basic pipeline
-Raw data → preprocessing → feature engineering → model → evaluation → tuning.
+Raw data → preprocessing → feature engineering → model → evaluation → fine-tuning 
 
 ---
 
