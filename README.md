@@ -114,4 +114,3 @@ L1 (Lasso) → can shrink coefficients to zero (does feature selection)
 L2 (Ridge) → shrinks coefficients but keeps all features
 
 ---
-
